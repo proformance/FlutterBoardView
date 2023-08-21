@@ -9,7 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  vs_scrollbar: ^0.2.0
+  vs_scrollbar:
+    git:
+      url: https://github.com/inyong1/vs_scrollbar
+      ref: "325bf10"
 
 dev_dependencies:
   flutter_test:
